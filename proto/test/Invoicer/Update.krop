@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "Invoicer.Update"
+  },
+  "requests": [
+    {
+      "location": "Update-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc",
+  "importStreamId": "2a14025d-a862-42ef-9b7f-31721181512b"
+}

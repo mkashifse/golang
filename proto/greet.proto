@@ -1,0 +1,47 @@
+syntax="proto3";
+
+package greet;
+option go_package = "./proto";
+
+service Greeter {
+	rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+message HelloRequest {
+	string name = 1;
+}
+
+message HelloReply {
+	string message = 1;
+}
+
+
+// message Transaction {
+//  	string from = 1;
+//     string to = 2;
+//     int64 amount = 3;
+//     string timestamp = 4;
+//     string hash = 5;
+// }
+
+// message Block {
+//     int64 index = 1;
+//     string timestamp = 2;  
+//     string hash = 3;
+//     string previousHash = 4;
+//     repeated Transaction transactions = 5;  
+// }
+
+// message Wallet {
+// 	string address = 1;
+// 	string privateKey = 2;
+// 	string publicKey = 3;
+// 	int64 balance = 4;
+// }
+
+// message Blockchain {
+//     repeated Block chain = 1;
+// 	map<string, Wallet> wallets = 2;
+// }
+
+

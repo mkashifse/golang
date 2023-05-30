@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "amount": "599",
+    "currency": "{{ faker.finance.currency }}"
+  },
+  "from": "Passage Bahraini Dinar",
+  "to": "Response Buckinghamshire Regional",
+  "VATNumber": "{{ faker.random.ushort }}"
+}
